@@ -2,25 +2,37 @@
 *{
     margin: 0;
     padding: 0;
-    color: #999999;
+    color: #363636;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     list-style-type: none;
     text-decoration: none;
 }
-#principal h1 {
-    color: #5D3364;
+h1 {
+    color: #363636;
     font-size: 36px;
-    font-family: 'Merriweather', serif;
-    margin-top: 40px;
+    font-family: Lato, sans-serif;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
-#principal p {
+h2 {
+    font-family: 'Merriweather', serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+h3 {
+    font-size: 21px;
+    margin-top:15px;
+}
+p {
     margin-top: 10px;
 }
-
-.produto a {
+a {
     margin-top: 10px;
+}
+img {
+    width: 100%;
 }
 .container {
     width: 1140px;
@@ -30,19 +42,7 @@
 #cabecalho {
     width: 100%;
     height: 120px;
-    background-color: #BA67C8;
-}
-
-#logo img {
-    margin-top:16px;
-}
-
-#produtos h2 {
-    font-family: 'Merriweather', serif;
-    margin-top: 40px;
-    margin-bottom: 15px;
-    font-size: 24px;
-    color: #3C4E58;
+    background-color: #F2F0FF;
 }
 
 #lista-produtos {
@@ -51,25 +51,16 @@
 }
 
 .produto { 
+    width: 350px;
+    margin: 10px;
     padding: 20px;
+    border: 1px solid #363636;
     text-align: center;
-    -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.04);
-    -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.04);
-    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.04);
-}
-
-.produto h3 {
-    font-family: 'Merriweather', serif;
-    font-size: 21px;
-    margin-top: 15px;
-    color: #3C4E58;
-}
-
-.produto img {
-    width: 100%;
 }
 
 .preco {
+    font-weight: bold;
+    color: green;
     font-size: 1.5rem;
 }
 
@@ -79,7 +70,7 @@
     margin: auto;
     margin-top: 20px;
     width: calc(100% - 30px);
-    background-color: #BA67C8;
+    background-color: #7E33E0;
     color: white;
     padding: 15px;
 }

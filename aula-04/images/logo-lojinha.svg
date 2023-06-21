@@ -6,8 +6,8 @@
 		.s2 { fill: #fafafa } 
 		.s3 { opacity: .1;fill: #000000 } 
 		.s4 { fill: #ba68c8 } 
-		.s5 { opacity: .2;fill: #000000 } 
-		.s6 { fill: #000000 } 
+		.s5 { opacity: .2;fill: #ffffff } 
+		.s6 { fill: #ffffff } 
 	</style>
 	<g id="Yarns">
 		<g id="Yarn">
