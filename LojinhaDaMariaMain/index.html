@@ -27,10 +27,19 @@
     <!--  AQUI É O TÍTULO DA MINHA PÁGINA  -->
     <header id="cabecalho">
         <div class="container">
-            <div id="logo">
-                <img src="images/logo-lojinha.svg" alt="Logo" height="84" />
+            <div class="row">
+                <div id="logo" class="col-lg-4">
+                    <img src="images/logo-lojinha.svg" alt="Logo" height="84" />
+                </div>
+                <nav id="menu" class="col-lg-8">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div id="menu"></div>
         </div>
     </header>
     <main id="principal">
@@ -74,66 +83,53 @@
                     </li>
                 </ul>
             </section>
-            <section id="quem-somos">
-                <div class="container">
-                    <div class="row">
-                        <article class="col-lg-6 col-sm-12" id="quemSomosContainer">
-                            <img id="imgQuemSomos" src="images/quem-somos.png" alt="Quem Somos">
-                        </article>
-                        <article class="col-lg-6 col-sm-12" id="textQuemSomos">
-                            <div id="texto">
-                                <h3>Quem é Maria?</h3>
-                                <p>
-                                    Maria é uma apaixonada pelo mundo das linhas, agulhas e criações artesanais desde
-                                    muito
-                                    jovem.
-                                </p>
-
-                                <p>
-                                    Com habilidade e dedicação. Maria aprimorou suas técnicas de tricô ao longos dos
-                                    anos,
-                                    transformando os fios em verdadeiras obras de arte. Seus produtos são cuidadosamente
-                                    confeccionados, utilizando as melhores matérias primas e com um olhar atento aos
-                                    detalhes.
-                                </p>
-
-                                <p>
-                                    Na lojinha de tricô da Maria você encontrará uma variedade de peças feitas à mão,
-                                    que
-                                    combinam conforto, elegância e estilo.
-                                </p>
-                            </div>
-                            <button type="button" class="btn" id="btnQuemSomos">Leia mais</button>
-                        </article>
-                    </div>
+            <section id="quem-somos" class="row">
+                <div class="col-lg-6">
+                    <img src="images/quem-somos.png" alt="Foto da Maria tricotando" />
+                </div>
+                <div class="col-lg-6 texto">
+                    <h2>Quem é a Maria?</h2>
+                    <p>Maria é uma apaixonada pelo mundo das linhas, agulhas e criações artesanais desde muito jovem.
+                    </p>
+                    <p>Com habilidade e dedicação, Maria aprimorou suas técnicas de tricô ao longo dos anos,
+                        transformando os fios em verdadeiras obras de arte. Seus produtos são cuidadosamente
+                        confeccionados, utilizando as melhores matérias-primas e com um olhar atento aos detalhes.</p>
+                    <p>Na lojinha de tricô da Maria, você encontrará uma variedade de peças feitas à mão, que combinam
+                        conforto, elegância e estilo.</p>
+                    <a class="btn btn-lg" href="#">Leia mais</a>
                 </div>
             </section>
         </div>
     </main>
-    <!-- todo: FAZER AQUI A LISTA DE MAIS VENDIDOS -->
     <footer id="rodape">
-        <div class="row">
-            <article class="col-lg-4" id="colFooter1">
-                <h4>Endereço:</h4>
-                <p>
-                    Rua dos Eucaliptos 345 <br>
-                    Bairro Floresta | Cidade Feliz - SP
-                </p>
-            </article>
-            <article class="col-lg-4" id="colFooter2">
-                <h4>Links</h4>
-                <a href="#">Todos os Produtos</a><br>
-                <a href="#">Fale Conosco</a><br>
-                <a href="#">Mapa do site</a><br>
-            </article>
-            <article class="col-lg-4" id="colFooter3">
-                <h4>Newsletter</h4>
-                <p>Cadastre-se para receber ofertas e novidades!</p>
-                <form id="enviar">
-                    <input type="email" id="inputTxt" placeholder="Digite seu email...">
-                    <input type="button" value="Enviar" id="inputBtn">
-                </form>
-            </article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Endereço</h2>
+                    <ul>
+                        <li>Rua dos Eucaliptos 345</li>
+                        <li>Bairro Floresta | Cidade Feliz - SP</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="#">Todos os produtos</a></li>
+                        <li><a href="contato.html">Fale Conosco</a></li>
+                        <li><a href="#">Mapa do site</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h2>Newsletter</h2>
+                    <p>Cadastre-se para receber ofertas e novidades!</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Digite seu e-mail..." />
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

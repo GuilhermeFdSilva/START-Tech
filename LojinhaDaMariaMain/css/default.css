@@ -37,7 +37,23 @@
     margin-top:16px;
 }
 
-#produtos h2 {
+#menu ul {
+    display: flex;
+    justify-content: end;
+    padding-top: 48px;
+}
+
+#menu ul li {
+    padding-left: 36px;
+}
+
+#menu ul li a {
+    color: #ffffff;
+    height: 24px;
+    padding-bottom: 4px;
+}
+
+ #produtos h2 {
     font-family: 'Merriweather', serif;
     margin-top: 40px;
     margin-bottom: 15px;
@@ -84,104 +100,61 @@
     padding: 15px;
 }
 
-#quem-somos {
-    margin-top: 30px;
+.botao:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #5D3364;
+    transition: background-color 1s;
 }
 
-#quemSomosContainer {
-    padding: 50px;
-}
-
-#imgQuemSomos {
+#quem-somos img {
     width: 100%;
 }
 
-#textQuemSomos {
-    padding: 50px;
+#quem-somos .texto {
+    padding-left: 40px;
 }
 
-#textQuemSomos h3 {
+#quem-somos h2 {
     font-family: 'Merriweather', serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 24px;
     color: #3C4E58;
 }
 
-#btnQuemSomos {
+#quem-somos a {
+    font-family: 'Merriweather', serif;
+    margin-top: 20px;
     background-color: #BA67C8;
     color: white;
-    font-weight: bold;
-    font-family: 'Merriweather', serif;
 }
 
 #rodape {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 90px;
     background-color: #5D3364;
-    padding: 30px;
-    padding-bottom: 100px;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    color: #ffffff;
 }
 
-#rodape h4{
-    padding-bottom: 20px;
-}
-
-#colFooter1 {
+#rodape h2 {
     font-family: 'Merriweather', serif;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
 }
 
-#colFooter1 p{
-    color: white;
+#rodape li, #rodape p {
+    color: #ffffff;
+    line-height: 1.75em;
 }
 
-#colFooter2 h4 {
-    color: white;
-    font-family: 'Merriweather', serif;
+#rodape a {
+    color: #F1E1F4;
 }
 
-#colFooter2 a{
-    text-decoration: none;
-    color: white;
-}
-
-#colFooter3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#colFooter3 h4{
-    color: white;
-    font-family: 'Merriweather', serif;
-}
-
-#colFooter3 p{
-    color: white;
-}
-
-#enviar {
-    height: 35px;
-    display: flex;
-    border-radius: 6px;
-    overflow: hidden;
-}
-
-#inputTxt{
-    width: 100%;
-    padding-left: 5px;
-}
-
-#inputBtn{
-    cursor: pointer;
+#rodape button {
+    color: #ffffff;
     background-color: #BA67C8;
-    color: white;
-    border: none;
-    padding-left: 5px;
-    padding-right: 5px; 
-}
-
-#inputTxt:focus {
-    border: none;
 }
