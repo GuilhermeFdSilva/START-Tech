@@ -170,6 +170,7 @@
 
 #inputTxt{
     width: 100%;
+    padding-left: 5px;
 }
 
 #inputBtn{
@@ -178,4 +179,8 @@
     border: none;
     padding-left: 5px;
     padding-right: 5px; 
+}
+
+#inputTxt:focus {
+    border: none;
 }
