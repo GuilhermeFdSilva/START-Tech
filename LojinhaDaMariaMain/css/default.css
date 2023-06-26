@@ -8,7 +8,7 @@
     list-style-type: none;
     text-decoration: none;
 }
-#principal h1 {
+#principal h1, #contato h1 {
     color: #5D3364;
     font-size: 36px;
     font-family: 'Merriweather', serif;
@@ -21,10 +21,6 @@
 
 .produto a {
     margin-top: 10px;
-}
-.container {
-    width: 1140px;
-    margin: auto;
 }
 
 #cabecalho {
@@ -123,7 +119,7 @@
     color: #3C4E58;
 }
 
-#quem-somos a {
+#quem-somos a, #contato input[type="submit"] {
     font-family: 'Merriweather', serif;
     margin-top: 20px;
     background-color: #BA67C8;
@@ -157,4 +153,46 @@
 #rodape button {
     color: #ffffff;
     background-color: #BA67C8;
+}
+
+#contato form {
+    padding-top: 40px;
+}
+
+@media (max-width: 768px) {
+    #logo img {
+        width: 320px;
+    }
+    #menu {
+        background-color: #5D3364;
+        padding: 0;
+    }
+    #menu ul {
+        padding-top: 12px;
+        justify-content: space-between;
+    }
+    
+    #menu ul li {
+        padding: 0 18px;
+    }
+    #principal h1 {
+        font-size: 32px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        line-height: 48px;
+    }
+    #principal p {
+        text-align: center;
+    }
+    #texto p {
+        text-align: left;
+    }
+    #rodape .col-lg-4 {
+        padding-bottom: 40px;
+    }
+    #contato h1 {
+        padding-top: 30px;
+    }
 }
