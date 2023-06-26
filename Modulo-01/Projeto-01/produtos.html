@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo Games - Produtos</title>
+
+    <!-- Meus CSS -->
+    <link rel="stylesheet" href="css/padrao.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- SCRIPT BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NAVBAR FIXO -->
+    <header id="inicio">
+        <nav class="navbar">
+            <a class="navbar-brand" href="index.html">
+                <img src="" height="30" alt="Logo Neo Games">
+            </a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item" id="item1">
+                    <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-item" id="item2">
+                    <a class="nav-link" href="cartao.html">Cartão NEO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteudo -->
+    <main id="main">
+        <div class="container">
+
+            <!-- Produtos -->
+            <section class="row">
+                <h2>Produtos</h2>
+            </section>
+            <section class="row" id="cards">
+                <div class="card">
+                    <img class="card-img-top h-50" src="img/produtos/PcNeo.jpg" alt="PC Morpheus">
+                    <div class="card-body">
+                        <h5 class="card-title"> PC Neo</h5>
+                        <p class="card-text">
+                            PC de alta performance para os escolhidos <br>
+                            &middot; Processador: Intel Core i9 de 10ª geração <br>
+                            &middot; Placa de vídeo: NVIDIA GeForce RTX 3070 <br>
+                            &middot; 32GB de RAM <br>
+                            &middot; 1TB HD + 480GB SSD
+                        </p>
+                        <a href="#" class="btn">Ver Mais</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top h-50" src="img/produtos/PcMo.jpeg" alt="PC Morpheus">
+                    <div class="card-body">
+                        <h5 class="card-title"> PC Morpheus</h5>
+                        <p class="card-text">
+                            PC de alta performance e exelente custo-benefício <br>
+                            &middot; Processador AMD Ryzen 5 3600 <br>
+                            &middot; Placa de vídeo AMD Radeon RX 6400 <br>
+                            &middot; 16GB de RAM <br>
+                            &middot; SSD de 240GB
+                        </p>
+                        <a href="#" class="btn">Ver Mais</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top h-50" src="img/produtos/PcTr.jpg" alt="PC Trinity">
+                    <div class="card-body">
+                        <h5 class="card-title">PC Trinity</h5>
+                        <p class="card-text">
+                            PC de alta performance e exelente custo-benefício <br>
+                            &middot; Processador Intel i3-8300 <br>
+                            &middot; Placa de vídeo GeForce GTX 1660 Super <br>
+                            &middot; 16GB de RAM <br>
+                            &middot; SSD de 240GB
+                        </p>
+                        <a href="#" class="btn">Ver Mais</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="row">
+            <section class="col-lg-4 itemRodape">
+                <img src="" alt="Logo Neo Games" id="logo">
+            </section>
+            <section class="col-lg-4 itemRodape">
+                <h3>Páginas</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="cartao.html">Cartão Neo</a></li>
+                </ul>
+            </section>
+            <section class="col-lg-4 itemRodape">
+                <h2>Newsletter</h2>
+                <p>Cadastre-se para receber ofertas e novidades!</p>
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Digite seu e-mail..." />
+                    <div class="input-group-append">
+                        <button class="btn" type="button">Enviar</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>

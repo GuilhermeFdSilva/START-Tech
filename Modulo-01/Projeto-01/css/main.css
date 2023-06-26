@@ -1,0 +1,61 @@
+#main{
+    background-color: #001300;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5);
+    width: 80vw;
+    position: relative;
+    margin: 40px auto;
+    padding: 40px;
+}
+
+.row h2, .row p{
+    cursor: default;
+    margin: auto;
+    color: #ccffcc;
+}
+
+.row #txtQuemSomos{
+    font-size: 22px;
+}
+
+#cards {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cards .card{
+    width: 45%;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    padding: 0;
+    background-color: #001800;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.2);
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body h5, .card-body p{
+    margin: auto;
+    cursor: default;
+    color: #ccffcc;
+}
+
+.card-body .btn {
+    margin-top: 20px;
+    background-color: #ccffcc;
+    color: #001800;
+    font-weight: bolder;
+    transition: background-color 0.5s;
+}
+
+.card-body .btn:hover{
+    background-color: #00ff00;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+
+#quemSomos {
+    padding-top: 60px;
+}

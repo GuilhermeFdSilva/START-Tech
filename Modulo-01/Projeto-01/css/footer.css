@@ -1,0 +1,36 @@
+#footer {
+    background-color: #001300;
+    padding: 40px 20px 90px;
+    color: #ccffcc;
+}
+
+#footer h3, #footer h2 {
+    cursor: default;
+    padding-bottom: 20px;
+}
+
+#footer p{
+    padding-bottom: 10px;
+}
+
+#footer a{
+    color: #ccffcc;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 2px rgba(0, 255, 0, 0.5);
+}
+
+#footer .btn {
+    background-color: #ccffcc;
+    color: #001300;
+    font-weight: bolder;
+    transition: background-color 0.5s;
+}
+
+#footer .btn:hover{
+    background-color: #00ff00;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}

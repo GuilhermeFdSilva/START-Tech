@@ -1,0 +1,25 @@
+#formContainer {
+    padding-top: 50px;
+}
+
+#form {
+    padding: 20px 0;
+    margin: auto;
+}
+
+#form .btn,
+#form span {
+    background-color: #ccffcc;
+    color: #001300;
+    font-weight: bolder;
+    transition: background-color 0.5s;
+}
+
+#form .btn:hover {
+    background-color: #00ff00;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+
+#imagem img {
+    width: 100%;
+}
