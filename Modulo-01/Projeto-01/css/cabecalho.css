@@ -1,17 +1,17 @@
 #inicio {
     background-color: #001300;
     font-size: 20px;
-    box-shadow: 0px 0px 10px rgba(0,255,0,0.5);
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5);
 }
 
-#inicio nav a{
+#inicio nav a {
     color: #007f00;
     transition: color 0.5s;
 }
 
-#inicio nav a:hover{
+#inicio nav a:hover {
     color: #00ff00;
-    text-shadow: 0px 0px 10px rgba(0,255,0,0.5);
+    text-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5);
 }
 
 #carouselMain {
@@ -19,38 +19,44 @@
     overflow: hidden;
 }
 
-#carouselMain img{
+.carousel-item {
+    height: 70vh;
+}
+
+#carouselMain img {
     width: 100%;
 }
 
-.titulo {
+#titulo {
     cursor: default;
-    position: relative;
-    top: -51vh;
     font-size: 130px;
     font-weight: bolder;
     color: #eeffee;
-    text-shadow: 0px 0px 20px rgba(0,255,0,0.7);
+    text-shadow: 0px 0px 20px rgba(0, 255, 0, 0.7);
 }
 
-.promo{
-    position: relative;
-    top: -52vh;
+.promo {
     font-size: 100px;
     font-weight: bolder;
-    text-shadow: 0px 0px 20px rgba(0,255,0,0.8);
+    text-shadow: 0px 0px 20px rgba(0, 255, 0, 0.8);
 }
 
-.promo a{
+.promo a {
     color: #ccffcc;
 }
 
-.promo a:hover{
+.promo a:hover {
     text-decoration: none;
     color: #ffffff;
-    text-shadow: 0px 0px 40px rgba(0,255,0,0.8);
+    text-shadow: 0px 0px 40px rgba(0, 255, 0, 0.8);
 }
 
 #item1 {
     border-right: 1px solid #007f00;
+}
+
+@media (max-width: 768px) {
+    #carouselMain {
+        display: none;
+    }
 }

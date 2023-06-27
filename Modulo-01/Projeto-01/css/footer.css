@@ -34,3 +34,13 @@
     background-color: #00ff00;
     box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
 }
+
+@media (max-width: 768px) {
+    #footer {
+        padding-bottom: 90px;
+    }
+
+    #footer h2, #footer h3 {
+        padding-bottom: 0;
+    }
+}
