@@ -1,0 +1,9 @@
+#header {
+    background-color: rgb(24, 28, 35);
+}
+
+#navIcone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

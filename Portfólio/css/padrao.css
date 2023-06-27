@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(15, 18, 22);
+}
