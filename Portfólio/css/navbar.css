@@ -7,3 +7,13 @@
     justify-content: center;
     align-items: center;
 }
+
+#home {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#home h1 {
+    font-size: larger;
+}
