@@ -16,4 +16,6 @@
 
 #home h1 {
     font-size: larger;
+    padding-top: 13px;
+    padding-left: 5px;
 }
