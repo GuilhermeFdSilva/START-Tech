@@ -1,7 +1,8 @@
 #footer {
-    background-color: #001300;
-    padding: 40px 20px 90px;
+    background-color: #000500;
+    padding: 40px 60px 90px;
     color: #ccffcc;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
 }
 
 #footer h3, #footer h2 {
@@ -25,7 +26,7 @@
 
 #footer .btn {
     background-color: #ccffcc;
-    color: #001300;
+    color: #000500;
     font-weight: bolder;
     transition: background-color 0.5s;
 }

@@ -3,14 +3,14 @@
 }
 
 #form {
-    padding: 20px 0;
+    padding: 40px 0;
     margin: auto;
 }
 
 #form .btn,
 #form span {
     background-color: #ccffcc;
-    color: #001300;
+    color: #000500;
     font-weight: bolder;
     transition: background-color 0.5s;
 }

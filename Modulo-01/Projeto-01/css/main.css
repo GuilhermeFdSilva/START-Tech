@@ -1,10 +1,11 @@
 #main{
-    background-color: #001300;
+    background-color: #000500;
     box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5);
     width: 80vw;
     position: relative;
     margin: 40px auto;
-    padding: 40px;
+    padding: 60px;
+    border-radius: 5px;
 }
 
 .row h2, .row p{
@@ -20,15 +21,14 @@
 #cards {
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 #cards .card{
     width: 45%;
-    margin-left: 10px;
-    margin-bottom: 40px;
+    margin: 10px auto 10px 25px;
     padding: 0;
-    background-color: #001800;
+    background-color: #001000;
     box-shadow: 0 0 5px rgba(0, 255, 0, 0.2);
 }
 
@@ -46,7 +46,7 @@
 .card-body .btn {
     margin-top: 20px;
     background-color: #ccffcc;
-    color: #001800;
+    color: #001000;
     font-weight: bolder;
     transition: background-color 0.5s;
 }
