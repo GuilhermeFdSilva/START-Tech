@@ -9,4 +9,6 @@ Para acessar os projetos, veja o <a href="https://guilhermefdsilva.github.io/STA
 
 <hr>
 
-<img src="https://www.totvs.com/wp-content/uploads/2019/09/logo.png">&nbsp;&nbsp;&nbsp;<img src="https://ios.org.br/wp-content/uploads/2021/01/logo-istituto-oportunidade-social.svg">&nbsp;&nbsp;&nbsp;<img src="https://ada-site-frontend.s3.sa-east-1.amazonaws.com/home/header-logo.svg">
+<img src="https://www.totvs.com/wp-content/uploads/2019/09/logo.png">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://ios.org.br/wp-content/uploads/2021/01/logo-istituto-oportunidade-social.svg" height="70px">&nbsp;&nbsp;&nbsp;
+<img src="https://ada-site-frontend.s3.sa-east-1.amazonaws.com/home/header-logo.svg">
