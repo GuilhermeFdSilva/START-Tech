@@ -21,6 +21,11 @@
     background-color: rgb(24, 28, 35);
     border-radius: 10px;
     overflow: hidden;
+    transition: all 0.5s;
+}
+
+#card1:hover, #card2:hover{
+    transform: scale(1.01);
 }
 
 .card-body, .list-group, .item {

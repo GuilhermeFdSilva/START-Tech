@@ -30,6 +30,11 @@
     padding: 0;
     background-color: #001000;
     box-shadow: 0 0 5px rgba(0, 255, 0, 0.2);
+    transition: all 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.01);
 }
 
 .card-body{
@@ -48,7 +53,7 @@
     background-color: #ccffcc;
     color: #001000;
     font-weight: bolder;
-    transition: background-color 0.5s;
+    transition: background-color 0.3s;
 }
 
 .card-body .btn:hover{
