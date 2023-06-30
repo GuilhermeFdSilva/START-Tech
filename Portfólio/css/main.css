@@ -13,10 +13,12 @@
     justify-content: space-around;
     padding-top: 50px;
     cursor: default;
+    flex-wrap: wrap;
 }
 
 #card1, #card2 {
     width: 45%;
+    min-width: 400px;
     color: white;
     background-color: rgb(24, 28, 35);
     border-radius: 10px;
@@ -43,4 +45,10 @@
 .item a:hover {
     color: #97e04b;
     text-decoration: none;
+}
+
+@media (max-width: 890px) {
+    #card1, #card2{
+        width: 80%;
+    }    
 }

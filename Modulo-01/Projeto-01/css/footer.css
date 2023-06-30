@@ -28,12 +28,18 @@
     background-color: #ccffcc;
     color: #000500;
     font-weight: bolder;
-    transition: background-color 0.3s;
+    transition: all 0.3s;
 }
 
 #footer .btn:hover{
-    background-color: #00ff00;
+    background-image: url(/STARTTech/Modulo-01/Projeto-01/img/Fundo.gif);
+    background-size: cover;
+    color: #ccffcc;
     box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+
+#logo {
+    width: 80%;
 }
 
 @media (max-width: 768px) {
