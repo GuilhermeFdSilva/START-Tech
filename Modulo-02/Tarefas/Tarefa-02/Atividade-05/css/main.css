@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: 0;
+  list-style-type: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#main {
+  background-color: #fbffcd;
+  padding: 30px;
+  min-height: 90vh;
+}
+
+#main h1 {
+  color: #001f36;
+  padding-top: 20px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  cursor: default;
+  flex-wrap: wrap;
+}
+
+#cardForm,
+#cardRetorno {
+  width: 100%;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #1c5560;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#respostas {
+  padding: 15px;
+}
+
+.card-body,
+.list-group,
+.item {
+  background-color: #1c5560 !important;
+}
+
+.card .carousel-item {
+  height: 30vh;
+}
+
+.item a {
+  color: white;
+}
+
+@media (max-width: 890px) {
+
+  #cardForm,
+  #cardRetorno {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+}

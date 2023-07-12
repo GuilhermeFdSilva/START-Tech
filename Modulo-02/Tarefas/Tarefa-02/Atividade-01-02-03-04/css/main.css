@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: 0;
+  list-style-type: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#main {
+  background-color: rgb(15, 18, 22);
+  padding: 30px;
+}
+
+#main h1 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  cursor: default;
+  flex-wrap: wrap;
+}
+
+#card1,
+#card3 {
+  width: 70%;
+  margin-bottom: 40px;
+  color: white;
+  background-color: rgb(24, 28, 35);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#card2 {
+  width: 70%;
+  margin-bottom: 5px;
+  color: white;
+  background-color: rgb(24, 28, 35);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-body,
+.list-group,
+.item {
+  background-color: rgb(24, 28, 35) !important;
+}
+
+.card .carousel-item {
+  height: 30vh;
+}
+
+.item a {
+  color: white;
+}
+
+@media (max-width: 890px) {
+
+  #card1,
+  #card2 {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+}

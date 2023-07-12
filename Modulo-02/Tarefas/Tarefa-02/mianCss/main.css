@@ -1,0 +1,55 @@
+#main {
+  background-color: rgb(15, 18, 22);
+  padding: 30px;
+  min-height: 90vh;
+}
+
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  cursor: default;
+  flex-wrap: wrap;
+}
+
+#card {
+  width: 70%;
+  margin: 10px;
+  color: white;
+  background-color: rgb(24, 28, 35);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+#card:hover {
+  transform: scale(1.01);
+}
+
+.card-body,
+.list-group,
+.item {
+  background-color: rgb(24, 28, 35) !important;
+}
+
+.card .carousel-item {
+  height: 30vh;
+}
+
+.item a {
+  color: white;
+}
+
+.item a:hover {
+  color: #97e04b;
+  text-decoration: none;
+}
+
+@media (max-width: 890px) {
+  #card {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+}

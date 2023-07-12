@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Média Alunos</title>
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/form.css">
+
+  <!-- CSS do BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- JAVASCRIPT do BOOTSTRAP -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Voltar ao Inicio -->
+  <header id="header">
+    <nav class="navbar" id="navIcone">
+      <a class="navbar-brand" href="/STARTTech/Modulo-02/Tarefas/Tarefa-02/index.html" id="home">
+        <img src="https://lms-ada-assets.s3.sa-east-1.amazonaws.com/logo_small.svg" width="50" height="50"
+          alt="Logo Ada">
+        <h1>&nbsp; &larr;</h1>
+      </a>
+    </nav>
+  </header>
+
+  <!-- Corpo -->
+  <main id="main">
+
+    <!-- Primeira Atividade -->
+    <h1>Média Alunos</h1>
+    <section id="cards">
+      <div class="card" id="card1">
+
+        <!-- Cabeçalho -->
+        <div class="card-header">
+          <h2>Média Aritimética</h2>
+        </div>
+
+        <!-- Corpo do card -->
+        <div class="card-body">
+
+          <!-- Linha da entrada de dados -->
+          <div class="row">
+            <article class="col-md-6">
+              <div class="form-group">
+                <label for="numero1">Primeiro Número</label>
+                <input type="text" class="form-control" id="numero1" placeholder="Primeiro Número">
+              </div>
+            </article>
+            <article class="col-md-6">
+              <div class="form-group">
+                <label for="numero2">Segundo Número</label>
+                <input type="text" class="form-control" id="numero2" placeholder="Segundo Número">
+              </div>
+            </article>
+          </div>
+
+          <!-- Linha primeiro retorno -->
+          <div class="row">
+            <article class="col-md-12">
+              <div class="form-group">
+                <label for="media">Média</label>
+                <input type="text" class="form-control" id="mediaAr" placeholder="Média" readonly>
+              </div>
+            </article>
+          </div>
+
+          <!-- Linha segundo retorno -->
+          <div class="row">
+            <article class="col-md-12">
+              <div class="form-group">
+                <label for="produto">Produto</label>
+                <input type="text" class="form-control" id="produto" placeholder="Produto" readonly>
+              </div>
+            </article>
+          </div>
+
+          <!-- Linha botao -->
+          <div class="row">
+            <article class="col-md-2">
+              <button type="button" class="btn" id="botao1" onclick="exibir_resultado()">Calcular</button>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segunda Atividade -->
+      <div class="card" id="card2">
+
+        <!-- Cabeçalho -->
+        <div class="card-header row align-items-center">
+          <div class="col-md-8">
+            <h2>Media Ponderada</h2>
+          </div>
+
+          <!-- Linha quantidade de alunos -->
+          <article class="col-md-2">
+            <label for="numero1">Quantos Alunos</label>
+          </article>
+          <article class="col-md-2">
+            <select class="form-control" id="qtdAlunos" onchange="controle_qtd()">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </article>
+        </div>
+
+        <!-- Corpo do card -->
+        <div class="card-body">
+
+          <!-- Linha das notas -->
+          <form id="formNotas">
+            <div class="row">
+              <article class="col-md-4">
+                <div class="form-group">
+                  <label for="numero1">Primeira nota</label>
+                  <input type="text" class="form-control" id="nota1" placeholder="Primeira nota">
+                </div>
+              </article>
+              <article class="col-md-2">
+                <div class="form-group">
+                  <label for="numero1">Peso</label>
+                  <input type="text" class="form-control" id="peso1">
+                </div>
+              </article>
+              <article class="col-md-4">
+                <div class="form-group">
+                  <label for="numero1">Segunda nota</label>
+                  <input type="text" class="form-control" id="nota2" placeholder="Segunda nota">
+                </div>
+              </article>
+              <article class="col-md-2">
+                <div class="form-group">
+                  <label for="numero1">Peso</label>
+                  <input type="text" class="form-control" id="peso2">
+                </div>
+              </article>
+            </div>
+
+            <!-- Linha matricula -->
+            <div class="row">
+              <article class="col-md-12">
+                <div class="form-group">
+                  <label for="numero1">Matrícula do aluno (a)</label>
+                  <input type="text" class="form-control" id="matricula" placeholder="Matrícula do Aluno">
+                </div>
+              </article>
+            </div>
+          </form>
+
+          <!-- Linha botao -->
+          <div class="row">
+            <article class="col-md-2">
+              <button type="button" class="btn" id="botao2" onclick="inserir_aluno()">Inserir</button>
+            </article>
+            <article class="offset-md-8 col-md-2">
+              <button type="button" class="btn" id="botao3" onclick="limpar_tabela()" disabled>Reset</button>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card das Notas -->
+      <div class="card" id="card3">
+
+        <!-- Legenda -->
+        <div class="card-header row">
+          <div class="col-md-6">
+            <h3>Matrícula</h3>
+          </div>
+          <div class="col-md-6">
+            <h3>Média final</h3>
+          </div>
+        </div>
+
+        <!-- Notas -->
+        <div class="car-body" id="notas">
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

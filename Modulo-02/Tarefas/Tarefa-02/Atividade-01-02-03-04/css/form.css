@@ -1,0 +1,53 @@
+#numero1,
+#numero2,
+#mediaAr,
+#produto,
+#qtdAlunos,
+#nota1,
+#nota2,
+#peso1,
+#peso2,
+#matricula {
+  background-color: #282C33;
+  border: none;
+  box-sizing: border-box;
+  height: 50px;
+  color: #fff;
+}
+
+#numero1:focus,
+#numero2:focus,
+#mediaAr:focus,
+#produto:focus,
+#qtdAlunos:focus,
+#nota1:focus,
+#nota2:focus,
+#peso1:focus,
+#peso2:focus,
+#matricula:focus {
+  box-shadow: none;
+  border: 1px solid #CCF892;
+}
+
+#botao1,
+#botao2,
+#botao3 {
+  background-color: #A6F750;
+  transition: all 0.3 ease;
+  border: none;
+  height: 50px;
+  width: 100%;
+}
+
+#botao1:hover,
+#botao2:hover,
+#botao3:hover {
+  background-color: #CCF892;
+  transform: translateY(-1px);
+}
+
+#botao1:focus,
+#botao2:focus,
+#botao3:focus {
+  box-shadow: none;
+}

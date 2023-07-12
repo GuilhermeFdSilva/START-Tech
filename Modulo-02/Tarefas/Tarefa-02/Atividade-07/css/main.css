@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: 0;
+  list-style-type: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#main {
+  background-image: url(/Atividade-07/img/OrganizacoesTabajara-transformed.jpeg);
+  background-size: cover;
+  padding: 0 200px;
+  min-height: 90vh;
+}
+
+#main h1 {
+  color: black;
+
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  cursor: default;
+  flex-wrap: wrap;
+}
+
+#cardForm,
+#cardRetorno {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #405059;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.none {
+  display: none !important;
+}
+
+#respostas {
+  padding: 20px;
+}
+
+#imgRetorno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body,
+.list-group,
+.item {
+  background-color: white !important;
+}
+
+.card .carousel-item {
+  height: 30vh;
+}
+
+.item a {
+  color: black;
+}
+
+@media (max-width: 890px) {
+
+  #cardForm,
+  #cardRetorno {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+}
