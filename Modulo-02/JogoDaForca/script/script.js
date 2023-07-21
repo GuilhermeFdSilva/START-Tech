@@ -108,7 +108,7 @@ function atualiza_palavra_mascarada(letra) {
 
 //Verifica a condição de Vitória ou Derrota
 function verificar_estado() {
-  let verificarSenha = palavraMascarada.join("").replace("*", " ");
+  let verificarSenha = palavraMascarada.join("").replaceAll("*", " ");
   if (verificarSenha == senha) {
     condicao_vitoria();
   }
@@ -165,7 +165,7 @@ function oculta_campo_resposta() {
 
 //Filtra os valores do input para padronização
 function filtro() {
-  const NUMEROS = /[^a-zA-ZÀ-ú]+$/;
+  const NUMEROS = /[^a-zA-ZÀ-ú\s]+$/;
   let texto = document.getElementById("inputResposta").value;
   document.getElementById("inputResposta").value = texto.replace(NUMEROS, "");
 }
@@ -183,7 +183,7 @@ function verificar_resposta() {
   }
 }
 
-function exibe_dica(elemento) {
+function exibe_dica() {
   let main = document.getElementById("corpo");
   let article = document.createElement("article");
   let h2 = document.createElement("h2");
