@@ -1,0 +1,245 @@
+#imgContainer {
+  width: 100vw;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#imagem {
+  width: 20%;
+  min-width: 200px;
+  margin: auto;
+}
+
+#titulo {
+  width: 100vw;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#titulo h1 {
+  font-size: 60px;
+  color: red;
+}
+
+#containerPalavra {
+  width: 100vw;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 50px;
+  display: none;
+}
+
+#botaoResposta button {
+  background-color: white;
+  color: green;
+  font-size: 18px;
+  padding: 7px;
+  border-radius: 20px;
+  border: 2px solid green;
+}
+
+#campoResposta {
+  display: none;
+}
+
+#campoResposta #xResposta {
+  border: 2px solid red;
+  color: red;
+}
+
+#inputResposta {
+  box-sizing: border-box;
+  height: 37px;
+  padding: 10px;
+  border-radius: 15px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#botaoContainer {
+  width: 100vw;
+  text-align: center;
+}
+
+#inicio {
+  display: block;
+}
+
+#botao {
+  margin-top: 15px;
+  color: green;
+  background-color: white;
+  font-size: 35px;
+  padding: 5px 30px;
+  border: 2px solid green;
+  border-radius: 20px;
+}
+
+#teclado {
+  padding: 20px 100px;
+  display: none;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.letra {
+  box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+  margin: 5px 3px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#dica {
+  box-sizing: border-box;
+  height: 50px;
+  margin: 5px 3px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.erro {
+  background-color: red;
+  color: white;
+}
+
+.acerto {
+  background-color: green;
+  color: white;
+}
+
+#sair {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
+
+#sair button {
+  box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+  margin: 5px 3px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#restart {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
+#restart button {
+  box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+  margin: 5px 3px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cartao-popup-vitoria {
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  width: 50%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.cartao-popup-derrota {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  width: 50%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@media only screen and (max-width: 780px) {
+  #titulo h1 {
+    font-size: 40px;
+  }
+
+  #containerPalavra {
+    font-size: 35px;
+  }
+
+  #botao {
+    font-size: 25px;
+  }
+
+  #botaoResposta button {
+    font-size: 16px;
+  }
+
+  #teclado {
+    padding: 20px 20px;
+  }
+
+  .letra {
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+    font-size: 20px;
+  }
+
+  #dica {
+    height: 40px;
+    padding: 7px;
+    font-size: 20px;
+  }
+
+  #sair button {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  #restart button {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .cartao-popup-vitoria {
+    font-size: 30px;
+    width: 80%;
+  }
+
+  .cartao-popup-derrota {
+    font-size: 30px;
+    width: 80%;
+  }
+}
