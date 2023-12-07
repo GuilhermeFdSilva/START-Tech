@@ -7,7 +7,7 @@ body {
 #main {
     background-color: var(--cor-primaria);
     padding: 30px;
-    height: calc(100vh - var(--altura-header));
+    min-height: calc(100vh - var(--altura-header));
 }
 
 #identificacao {
