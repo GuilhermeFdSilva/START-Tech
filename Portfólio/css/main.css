@@ -1,6 +1,13 @@
+@import 'var.css';
+
+body {
+    background-color: var(--cor-primaria) !important;
+}
+
 #main {
-    background-color: rgb(15, 18, 22);
+    background-color: var(--cor-primaria);
     padding: 30px;
+    height: calc(100vh - var(--altura-header));
 }
 
 #identificacao {
@@ -20,18 +27,14 @@
 #card1, #card2 {
     width: 45%;
     color: white;
-    background-color: rgb(24, 28, 35);
+    background-color: var(--cor-secundaria);
     border-radius: 10px;
     overflow: hidden;
     transition: all 0.5s;
 }
 
-#card1:hover, #card2:hover{
-    transform: scale(1.01);
-}
-
 .card-body, .list-group, .item {
-    background-color: rgb(24, 28, 35) !important;
+    background-color: var(--cor-secundaria) !important;
 }
 
 .card .carousel-item {
@@ -43,13 +46,24 @@
 }
 
 .item a:hover {
-    color: #97e04b;
+    color: var(--cor-accent);
     text-decoration: none;
 }
 
 @media (max-width: 890px) {
-    #card1, #card2{
+    #card1, #card2 {
         width: 80%;
         margin-bottom: 40px;
     }    
+}
+
+@media (max-width: 550px) {
+    #main {
+        padding: 10px;
+    }
+
+    #card1, #card2 {
+        width: 100%;
+        border-radius: 0;
+    }
 }

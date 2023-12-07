@@ -8,6 +8,10 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+  background-color: #ffad08 !important;
+}
+
 #main {
   background-color: #ffad08;
   padding: 30px;
@@ -55,11 +59,12 @@
   color: white;
 }
 
-@media (max-width: 890px) {
+@media (max-width: 790px) {
+  #main {
+    padding: 5px;
+  }
 
-  #cardForm,
-  #cardRetorno {
-    width: 80%;
-    margin-bottom: 40px;
+  #main h1 {
+    font-size: xx-large;
   }
 }

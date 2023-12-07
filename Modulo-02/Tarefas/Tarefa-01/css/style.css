@@ -6,6 +6,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background-color: #dfdffc !important;
+}
+
 #principal {
   background-color: #dfdffc;
   display: flex;
@@ -20,7 +24,7 @@
   box-sizing: border-box;
   margin: 20px;
   padding: 40px;
-  height: 300px;
+  height: fit-content;
   width: 700px;
   border-radius: 20px;
   display: flex;
@@ -33,14 +37,18 @@
   margin-bottom: 30px;
 }
 
+.campo form {
+  width: 100%;
+}
+
 .formItem {
   background-color: #ffffff;
   border: 1px solid #dfdffc;
   box-sizing: border-box;
   margin: 1px;
   padding: 10px;
-  height: 40px;
-  width: 400px;
+  height: fit-content;
+  width: 100%;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -55,4 +63,21 @@
   height: 18px;
   border-radius: 10px;
   padding: 3px;
+}
+
+@media (max-width: 750px) {
+  .campo {
+    width: 97%;
+    padding: 20px;
+  }
+
+  .campo h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .formItem {
+    flex-direction: column;
+  }
 }

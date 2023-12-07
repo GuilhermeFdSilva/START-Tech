@@ -1,0 +1,8 @@
+:root {
+    --cor-primaria: rgb(15, 18, 22);
+    --cor-secundaria: rgb(24, 28, 35);
+    --cor-accent: #97e04b;
+
+    --altura-header: 60px;
+    --altura-icone: 40px
+}

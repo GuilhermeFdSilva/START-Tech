@@ -1,21 +1,21 @@
+@import 'var.css';
+
 #header {
-  background-color: rgb(24, 28, 35);
+    background-color: rgb(24, 28, 35);
+    height: var(--altura-header);
 }
 
 #navIcone {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 #home {
-  color: white;
-  display: flex;
-  align-items: center;
-}
-
-#home h1 {
-  font-size: larger;
-  padding-top: 13px;
-  padding-left: 5px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    align-items: center;
 }

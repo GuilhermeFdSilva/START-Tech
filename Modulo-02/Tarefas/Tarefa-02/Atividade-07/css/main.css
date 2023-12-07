@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import 'var.css';
 
 * {
   padding: 0;
@@ -8,16 +9,15 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-#main {
-  background-image: url(/STARTTech/Modulo-02/Tarefas/Tarefa-02/Atividade-07/img/OrganizacoesTabajara-transformed.jpeg);
-  background-size: cover;
-  padding: 0 200px;
-  min-height: 90vh;
+body {
+  background-color: var(--cor-secundaria) !important;
 }
 
-#main h1 {
-  color: black;
-
+#main {
+  background-image: url(../img/OrganizacoesTabajara-transformed.jpeg);
+  background-size: cover;
+  padding: 40px;
+  min-height: calc(100vh - var(--altura-header));
 }
 
 #cards {
@@ -67,10 +67,15 @@
 }
 
 @media (max-width: 890px) {
+  #main {
+    padding: 5px;
+  }
 
-  #cardForm,
-  #cardRetorno {
-    width: 80%;
-    margin-bottom: 40px;
+  .card-header h3 {
+    font-size: x-large;
+  }
+
+  #imgRetorno img {
+    width: 100%;
   }
 }

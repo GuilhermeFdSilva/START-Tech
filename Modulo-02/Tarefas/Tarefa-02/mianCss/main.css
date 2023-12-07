@@ -1,55 +1,72 @@
-#main {
-  background-color: rgb(15, 18, 22);
-  padding: 30px;
-  min-height: 90vh;
+@import 'var.css';
+
+body {
+    background-color: var(--cor-primaria) !important;
 }
 
+#main {
+    background-color: var(--cor-primaria);
+    padding: 30px;
+    height: calc(100vh - var(--altura-header));
+}
+
+#identificacao {
+    color: white;
+    cursor: default;
+    padding-left: 40px;
+}
 
 #cards {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  cursor: default;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 50px;
+    cursor: default;
 }
 
 #card {
-  width: 70%;
-  margin: 10px;
-  color: white;
-  background-color: rgb(24, 28, 35);
-  border-radius: 10px;
-  overflow: hidden;
-  transition: all 0.5s;
+    width: 50%;
+    color: white;
+    background-color: var(--cor-secundaria);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s;
 }
 
 #card:hover {
-  transform: scale(1.01);
+    transform: scale(1.01);
 }
 
-.card-body,
-.list-group,
-.item {
-  background-color: rgb(24, 28, 35) !important;
+.card-body, .list-group, .item {
+    background-color: var(--cor-secundaria) !important;
 }
 
 .card .carousel-item {
-  height: 30vh;
+    height: 30vh;
 }
 
 .item a {
-  color: white;
+    color: white;
 }
 
 .item a:hover {
-  color: #97e04b;
-  text-decoration: none;
+    color: var(--cor-accent);
+    text-decoration: none;
 }
 
 @media (max-width: 890px) {
-  #card {
-    width: 80%;
-    margin-bottom: 40px;
-  }
+    #card {
+        width: 80%;
+    }    
+}
+
+@media (max-width: 550px) {
+    #main {
+        padding: 10px;
+    }
+
+    #card {
+        width: 100%;
+    }
 }

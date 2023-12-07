@@ -57,7 +57,7 @@
 }
 
 .card-body .btn:hover{
-    background-image: url(/STARTTech/Modulo-01/Projeto-01/img/Fundo.gif);
+    background-image: url(/Modulo-01/Projeto-01/img/Fundo.gif);
     background-size: cover;
     color: #ccffcc;
     box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);

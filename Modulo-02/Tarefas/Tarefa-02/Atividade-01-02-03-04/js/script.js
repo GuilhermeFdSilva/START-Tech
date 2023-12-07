@@ -92,8 +92,8 @@ function inserir_aluno() {
 
   //Definindo as classes
   novaNota.className = "row mb-2 mt-2";
-  matriculaDiv.className = "col-md-6";
-  media.className = "col-md-6";
+  matriculaDiv.className = "col-md-6 col-sm-5";
+  media.className = "col-md-6 col-sm-5";
 
   //Inserindo as Strings nas tags
   if (matricula == '') {
