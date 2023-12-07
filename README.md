@@ -1,14 +1,44 @@
-# START &lt;Tech&gt;
+# START &lt;Tech&gt; 🤓
 
-Segunda edição do programa START &lt;Tech&gt;, da Universidade TOTVS, em parceria com a Ada Tech e o IOS - Instituto da Oportunidade Social.
-Neste repositório você irá encontrar todos os meus projetos realizados durante as aulas, e também meus projetos autorais avaliativos.
+## Módulos 1 e 2 🔢
 
-<hr>
+Conjuntos de projetos desenvolvidos durante os dois primeiros módulos do curso de programação web START Tech. ▶️<br>
+Aqui estão presentes projetos feiros em aula e projetos de conclusão de módulo, todos organizados em um mini portifolio que você pode [acessar aqui](https://guilhermefdsilva.github.io/START-Tech/Portf%C3%B3lio/)!
 
-Para acessar os projetos, veja o <a href="https://guilhermefdsilva.github.io/STARTTech/Portf%C3%B3lio/">Meu Portifólio</a>
+## Tecnologias aplicadas
 
-<hr>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+    <img src="https://guilhermefdsilva.github.io/read-db-myPortfolio/sticks/stick-html.svg" alt="HTML" height="28px">
+</a>
+<br>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
+    <img src="https://guilhermefdsilva.github.io/read-db-myPortfolio/sticks/stick-css.svg" alt="CSS" height="28px">
+</a>
+<br>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <img src="https://guilhermefdsilva.github.io/read-db-myPortfolio/sticks/stick-javascript.svg" alt="JavaScript" height="28px">
+</a>
 
-<img src="https://www.totvs.com/wp-content/uploads/2019/09/logo.png">&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://ios.org.br/wp-content/uploads/2021/01/logo-istituto-oportunidade-social.svg" height="70px">&nbsp;&nbsp;&nbsp;
-<img src="https://ada-site-frontend.s3.sa-east-1.amazonaws.com/home/header-logo.svg">
+## Só acredito vendo 👀
+
+Você pode acessar o link acima para ver os projetos. ⬆️
+
+**Ou**
+
+Rodar o projeto em sua máquina, você vai precisar:
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- Extenção do VScode [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+**Primeiro passo**: Clone esse repositório.
+```
+git clone https://github.com/GuilhermeFdSilva/START-Tech.git
+```
+
+**Segundo**: Abra o projeto com o VScode.
+
+**Terceiro**: na pasta `START-Tech/Portfólio/`, selecione o index.html e clique em GoLive.
+
+Você também pode simplesmente abrir essa pasta com o explorador de arquivos e abrir o index.html direto.
+
+### Contribuições são bem-vindas! 🫱🏽‍🫲🏾
